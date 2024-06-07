@@ -93,3 +93,19 @@ body {
     background-image: url("Grocery-Provision-Store-768x432.jpg");
     height: 50vh;
 }
+
+
+@media (max-width: 768px) {
+    .row1, .row2, .row3 {
+
+        grid-template-columns: 1fr;
+        
+    }
+}
+
+
+
+
+footer{
+    height: 50px;
+}
