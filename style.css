@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+/* navbar section start */
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+}
+
+.navbar-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin: 10px;
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font: bold;
+    font-style: normal;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav-items {
+    list-style: none;
+    margin: 10px;
+    padding: 0px;
+}
+/* navbar section start */
+
+/* hero-section start */
+.hero-section {
+    height: 90vh;
+    background-image: url("provision4-700x400.jpg");
+    background-position: center;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* hero-section start */
+
+/* row1 section start */
+.row1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* row1 section start */
+
+.col2 {
+    background-image: url("Grocery-PNG-Transparent-HD-Photo.png");
+    height: 50vh;
+}
+
+/* second row start */
+.row2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* second row end */
+
+.col4 {
+    background-image: url("comdlpng6953412.jpg");
+    height: 50vh;
+}
+
+/* third row start */
+.row3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+/* third row end */
+
+.col6 {
+    background-image: url("Grocery-Provision-Store-768x432.jpg");
+    height: 50vh;
+}
